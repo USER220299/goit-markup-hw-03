@@ -293,7 +293,7 @@ ul {
   padding-bottom: 100px;
 }
 .logo-container {
-  display: inline-block;
+  display: flex;
   margin-bottom: 16px;
 }
 .footer {
@@ -394,6 +394,7 @@ ul {
 }
 .portfolio-card {
   border: 1px solid var(--border);
+  border-top: none;
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
