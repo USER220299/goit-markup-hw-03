@@ -293,7 +293,7 @@ ul {
   padding-bottom: 100px;
 }
 .logo-container {
-  display: flex;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer {
