@@ -51,7 +51,7 @@ ul {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   outline-offset: -2px;
 }
 
@@ -60,7 +60,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 .page-nav {
   display: flex;
@@ -69,6 +68,7 @@ ul {
 
 .header {
   background-color: var(--white-color);
+  border-bottom: 1px solid var(--border);
 }
 .page-logo {
   margin-right: 76px;
@@ -132,10 +132,11 @@ ul {
 }
 
 /*=========== HERO SECTION========== */
-.hero-container {
+.hero {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+
 .hero {
   background-color: var(--secondary-color);
 }
@@ -175,8 +176,7 @@ ul {
 }
 /*=========== FEATURE SECTION========== */
 .features-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .features-list-container {
   display: flex;
@@ -209,7 +209,7 @@ ul {
   color: var(--secondary-text-clr);
 }
 /*=========== WE DOING SECTION========== */
-.wedoing-container {
+.wedoing {
   padding-bottom: 120px;
 }
 
@@ -233,10 +233,7 @@ ul {
 }
 
 /*=========== TEAM SECTION========== */
-.team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+
 .team-list-container {
   display: flex;
   gap: 24px;
@@ -244,6 +241,8 @@ ul {
 
 .team {
   background-color: var(--third-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .field {
   background-color: var(--white-color);
@@ -287,7 +286,7 @@ ul {
 }
 
 /*=========== FOOTER SECTION========== */
-.footer-container {
+.footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -329,7 +328,7 @@ ul {
 /* ---------------------Portfolio.html------------------- */
 
 /* ============PORTFOLIO SECTION============ */
-.portfolio-container {
+.portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -396,5 +395,7 @@ ul {
 .portfolio-card {
   border: 1px solid var(--border);
   border-top: none;
+}
+.card-container {
   padding: 36px 16px;
 }
