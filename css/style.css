@@ -283,6 +283,7 @@ ul {
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 /*=========== FOOTER SECTION========== */
@@ -393,9 +394,10 @@ ul {
   color: var(--secondary-text-clr);
 }
 .portfolio-card {
+  padding: 36px 16px;
   border: 1px solid var(--border);
   border-top: none;
 }
-.card-container {
+.portfolio-card-container {
   padding: 36px 16px;
 }
