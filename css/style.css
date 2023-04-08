@@ -394,10 +394,7 @@ ul {
   color: var(--secondary-text-clr);
 }
 .portfolio-card {
-  padding: 36px 16px;
+  padding: 32px 16px;
   border: 1px solid var(--border);
   border-top: none;
-}
-.portfolio-card-container {
-  padding: 36px 16px;
 }
