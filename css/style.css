@@ -51,7 +51,7 @@ ul {
   margin-left: auto;
   padding-right: 15px;
   padding-left: 15px;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
   outline-offset: -2px;
 }
 
@@ -181,7 +181,9 @@ ul {
 .features-list-container {
   display: flex;
   gap: 24px;
-  justify-content: space-between;
+}
+.features-description {
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .title-feature {
@@ -228,7 +230,7 @@ ul {
   text-transform: capitalize;
   color: var(--base-txt-clr);
 }
-.picture {
+.wedoing-list {
   flex-basis: calc((100% - 48px) / 3);
 }
 
